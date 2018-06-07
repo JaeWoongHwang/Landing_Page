@@ -1,0 +1,55 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+    attributes:
+      name: "FANDING"
+      title: "is"
+      content: "a new social funding platform that meets my K-pop idol and transforms the world with the power of their fans"
+    introduction:
+      title: "FANDING is a social funding platform"
+      content: "If you participate in a social funding meeting, you can meet with K-pop idol directly through fan meetings and small performances"
+      meet: "let's meet"
+      meet_desc: "You can meet K-pop idol directly through social funding"
+      benefit: "Get it"
+      benefit_desc: "If you participate in a social funding, you can get k-pop idol's goods."
+      donate: "Let's donate"
+      donate_desc: "Some of the funding money donated is donated in the name of the idol to protect the children's dreams"
+      share: "Let's share"
+      share_desc: "If you share our service 'FANDING' with your personal social media, you will receive an idol gift."
+    images:
+      choose: "CHOOSE FUNDING"
+      funding_page: "FUNDING PAGE"
+      my_page: "MY PAGE"
+      celeb_page: "CELEBRITY PAGE"
+    footer:
+      title: "Sign up for 'FANDING' and leave ideas"
+      content: "We provide presents related to our services to those who left ideas."
