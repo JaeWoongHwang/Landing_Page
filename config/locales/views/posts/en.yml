@@ -28,28 +28,35 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-    attributes:
-      name: "FANDING"
-      title: "is"
-      content: "a new social funding platform that meets my K-pop idol and transforms the world with the power of their fans"
-    introduction:
-      title: "FANDING is a social funding platform"
-      content: "If you participate in a social funding meeting, you can meet with K-pop idol directly through fan meetings and small performances"
-      meet: "let's meet"
-      meet_desc: "You can meet K-pop idol directly through social funding"
-      benefit: "Get it"
-      benefit_desc: "If you participate in a social funding, you can get k-pop idol's goods."
-      donate: "Let's donate"
-      donate_desc: "Some of the funding money donated is donated in the name of the idol to protect the children's dreams"
-      share: "Let's share"
-      share_desc: "If you share our service 'FANDING' with your personal social media, you will receive an idol gift."
-    images:
-      choose: "CHOOSE FUNDING"
-      funding_page: "FUNDING PAGE"
-      my_page: "MY PAGE"
-      celeb_page: "CELEBRITY PAGE"
-    footer:
-      title: "Sign up for 'FANDING' and leave ideas"
-      content: "We provide presents related to our services to those who left ideas."
+  nav_home: "HOME"
+  nav_post: "POST"
+  nav_language: "LANGUAGE"
+  slider:
+    title: "FANDING"
+    first_content1: "If you participated in funding,"
+    first_content2: "you can meet celebrities and donate for children."
+    second_content1: "FANDING is a new social funding platform that "
+    second_content2: "connects fans and entertainers."
+  introduction:
+    first_title:
+    first_content1:
+    first_content2:
+    first_content3:
+    second_title:
+    second_content1:
+    second_content2:
+    third_title:
+    third_content:
+    fourth_title:
+    fourth_content:
+    fifth_title:
+    fifth_content:
+  iconblock:
+    investment_title:
+    investment_content:
+    idea_title:
+    idea_content:
+    survey_title:
+    survey_content:
+  footer:

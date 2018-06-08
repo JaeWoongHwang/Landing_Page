@@ -29,26 +29,34 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 ja:
-  attributes:
-    name: "FANDING"
-    title: "ファンの力で"
-    content: "私のスターを満たすために、世界でも変化させる新しいソーシャルファンディングプラットフォーム"
+  nav_home: "ホーム"
+  nav_post: "役職"
+  nav_language: "言語"
+  slider:
+    title: "FANDING"
+    first_content1: "あなたが資金調達に参加した場合、"
+    first_content2: "有名人に会い、子供たちに寄付することができます。"
+    second_content1: "FANDINGは新しいソーシャル資金調達プラットフォームです。"
+    second_content2: "ファンとエンターテイナーをつなぎます。"
   introduction:
-    title:
-    content:
-    meet:
-    meet_desc:
-    benefit:
-    benefit_desc:
-    donate:
-    donate_desc:
-    share:
-    share_desc:
-  images:
-    choose: "CHOOSE FUNDING"
-    funding_page: "FUNDING PAGE"
-    my_page: "MY PAGE"
-    celeb_page: "CELEBRITY PAGE"
+    first_title:
+    first_content1:
+    first_content2:
+    first_content3:
+    second_title:
+    second_content1:
+    second_content2:
+    third_title:
+    third_content:
+    fourth_title:
+    fourth_content:
+    fifth_title:
+    fifth_content:
+  iconblock:
+    investment_title:
+    investment_content:
+    idea_title:
+    idea_content:
+    survey_title:
+    survey_content:
   footer:
-    title: "Sign up for 'FANDING' and leave ideas"
-    content: "We provide presents related to our services to those who left ideas."

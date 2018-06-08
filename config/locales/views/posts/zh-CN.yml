@@ -29,26 +29,34 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 zh-CN:
-  attributes:
-    name: "FANDING"
-    title: 凭借粉丝的力量
-    content: 一个新的社会基金平台，以满足我的明星，改变世界
+  nav_home: "家"
+  nav_post: "留言板"
+  nav_language: "语言选择"
+  slider:
+    title: "FANDING"
+    first_content1: "如果你参与了资助，"
+    first_content2: "你可以遇见名人并为孩子捐款。"
+    second_content1: "FANDING是一个新的社会资助平台 "
+    second_content2: "连接粉丝和演艺人员。"
   introduction:
-    title:
-    content:
-    meet:
-    meet_desc:
-    benefit:
-    benefit_desc:
-    donate:
-    donate_desc:
-    share:
-    share_desc:
-  images:
-    choose: "CHOOSE FUNDING"
-    funding_page: "FUNDING PAGE"
-    my_page: "MY PAGE"
-    celeb_page: "CELEBRITY PAGE"
+    first_title:
+    first_content1:
+    first_content2:
+    first_content3:
+    second_title:
+    second_content1:
+    second_content2:
+    third_title:
+    third_content:
+    fourth_title:
+    fourth_content:
+    fifth_title:
+    fifth_content:
+  iconblock:
+    investment_title:
+    investment_content:
+    idea_title:
+    idea_content:
+    survey_title:
+    survey_content:
   footer:
-    title: "Sign up for 'FANDING' and leave ideas"
-    content: "We provide presents related to our services to those who left ideas."
