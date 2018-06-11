@@ -60,3 +60,18 @@ en:
     survey_title:
     survey_content:
   footer:
+    intro: "Introduction"
+    i_content: "FANDING is a new social funding platform that connects fans and celebrities."
+    about_us: "About Us"
+    a_company: "Our Company"
+    a_inform: "Our Team"
+    a_service: "Our Service"
+    post: "Post"
+    p_question: "Question"
+    contact: "Contact Us"
+    c_address: "Soeul, Korea"
+    c_telephone: "02-000-0000"
+    c_email: "btd.bonkyoung@gmail.com"
+    privacy_policy: "Privacy Policy"
+    term_of_use: "Term of Use"
+    license: "License"
