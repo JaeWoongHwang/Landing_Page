@@ -33,10 +33,10 @@ en:
   nav_post: "POST"
   nav_language: "LANGUAGE"
   slider:
-    title: "FANDING"
+    title: "FANDORA BOX"
     first_content1: "If you participated in funding,"
     first_content2: "you can meet celebrities and donate for children."
-    second_content1: "FANDING is a new social funding platform that "
+    second_content1: "FANDORA BOX is a new social funding platform that "
     second_content2: "connects fans and entertainers."
   introduction:
     first_title:
@@ -61,7 +61,7 @@ en:
     survey_content:
   footer:
     intro: "Introduction"
-    i_content: "FANDING is a new social funding platform that connects fans and celebrities."
+    i_content: "FANDORA BOX is a new social funding platform that connects fans and celebrities."
     about_us: "About Us"
     a_company: "Our Company"
     a_inform: "Our Team"
