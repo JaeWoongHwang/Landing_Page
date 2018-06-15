@@ -11,8 +11,6 @@
 // about supported directives.
 //
 //= require_directory ./js
-//= require popper
-//= require bootstrap-sprockets
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .

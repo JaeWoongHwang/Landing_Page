@@ -39,6 +39,8 @@ en:
     second_content1: "FANDORA BOX is a new social funding platform that "
     second_content2: "connects fans and entertainers."
   introduction:
+    reservation: 
+    reservation_content:
     first_title:
     first_content1:
     first_content2:

@@ -8,6 +8,7 @@ end
 gem "binding_of_caller"
 gem 'devise'
 gem 'bootstrap', '~> 4.1.1'
+gem 'popper_js', '~> 1.12.9'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use sqlite3 as the database for Active Record

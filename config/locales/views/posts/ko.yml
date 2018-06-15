@@ -39,6 +39,8 @@ ko:
     second_content1: "스타와 팬을 이어주는"
     second_content2: "새로운 소셜펀딩 플랫폼"
   introduction:
+    reservation: "사전 가입하기"
+    reservation_content: "* 사전 가입시 FANDORA BOX 응모권 증정"
     first_title: "소셜 펀딩 플랫폼 FANDORA BOX는"
     first_content1: "팬과 스타가 직접 만날 수 있는 이벤트를 개최합니다."
     first_content2: "FANDORA BOX를 통해 여러분은 기존 팬 미팅, 팬 사인회보다 낮은 가격, 높은 확률로 스타를 만날 수 있습니다."
@@ -58,7 +60,7 @@ ko:
     idea_title: "아이디어 제공"
     idea_content: "FANDORA BOX는 팬과 스타를 위한 공간입니다. 더 나은 아이디어가 있다면 편하게 제안해주세요. 제안해주신 분들에겐 소정의 상품을 드립니다."
     survey_title: "설문조사"
-    survey_content: "FANDORA BOX가 더욱 많은 가치를 제공할 수 있도록 여러분의 의견을 들려주세요. 설문에 참여해주신 분들에겐 소정의 상품을 드립니다."
+    survey_content: "FANDORA BOX가 더 많은 가치를 제공할 수 있도록 여러분의 의견을 들려주세요. 설문에 참여해주신 분들에겐 소정의 상품을 드립니다."
   footer:
     intro: "소개"
     i_content: "FANDORA BOX는 팬과 스타를 이어주는 새로운 소셜 펀딩 플랫폼입니다."

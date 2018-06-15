@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LandingPage</title>
+    <title>FandoraBox</title>
     <%= csrf_meta_tags %>
-
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
     <!-- Tab logo -->
     <link rel="shortcut icon" href="../../assets/fandorabox_mini.png">
     <!-- Google Fonts -->
@@ -28,7 +27,7 @@
     <link rel="stylesheet" href="../../assets/revolution-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="../../assets/revolution-slider/revolution/css/settings.css">
     <link rel="stylesheet" href="../../assets/revolution-slider/revolution/css/layers.css">
-    <link rel="stylesheet" href="../../assets/revolution-slider/revolution/css/navigation.scss">
+    <link rel="stylesheet" href="../../assets/revolution-slider/revolution/css/navigation.css">
 
     <!-- CSS Unify -->
     <link rel="stylesheet" href="../../assets/css/unify-core.css">
@@ -40,12 +39,13 @@
   </head>
 
   <body>
+    <!--Header & Nav  -->
+    <%= render 'shared/header' %>
 
     <%= yield %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= render partial: 'shared/footer' %>
-
-
-
+    <!-- JS -->
+    <%= render 'shared/style' %>
+    <!-- Footer -->
+    <%= render 'shared/footer' %>
   </body>
 </html>
