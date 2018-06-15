@@ -24,18 +24,17 @@
           <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
             <!-- Intro -->
             <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-              <a href="/posts/index" class="nav-link g-py-7 g-px-0">
-                
-              <%= t 'nav_home'%>
-              </a>
+              <%= link_to root_path, class: "nav-link g-py-7 g-px-0"  do %>
+                <%= t 'nav_home' %>
+              <% end  %>
             </li>
             <!-- End Intro -->
 
             <!-- Home -->
-            <li class="hs-has-mega-menu nav-item active g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut" data-max-width="60%" data-position="left">
-              <a id="mega-menu-home" class="nav-link g-py-7 g-px-0" href="posts/index" aria-haspopup="true" aria-expanded="false">
-              <%= t 'nav_post'%>
-              </a>
+            <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut" data-max-width="60%" data-position="left">
+              <%= link_to new_post_path, class: "nav-link g-py-7 g-px-0", id: "mega-menu-home", :'aria-haspopup'=>"true", :'aria-expanded'=>"false"  do %>
+                <%= t 'nav_post' %>
+              <% end  %>
               <!-- End Mega Menu -->
             </li>
             <!-- End Home -->
