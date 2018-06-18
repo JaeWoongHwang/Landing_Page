@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   match '/:locale' => 'posts#index', via: [:get]
   get 'posts/index' => 'posts#index'
   get 'posts/new' => 'posts#new'
-  
+
   scope "{:locale}", locale: /#{I18n.available_locales.join("|")}/ do
     resources :posts
     root 'posts#index'

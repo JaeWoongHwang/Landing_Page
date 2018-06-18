@@ -4,19 +4,17 @@
     <meta charset="utf-8">
     <title>Sign up</title>
     <!-- CSS Implementing Plugins -->
-    <link  rel="stylesheet" href="../../../assets/jquery-ui/jquery-ui.min.css">
+    <link  rel="stylesheet" href="../../assets/jquery-ui/jquery-ui.min.css">
+
     <!-- jQuery UI Core -->
-    <script  src="../../../assets/jquery-ui/jquery-ui.core.js"></script>
-
+    <script  src="../../assets/jquery-ui/jquery-ui.core.js"></script>
     <!-- jQuery UI Helpers -->
-    <script  src="../../../assets/jquery-ui/ui/widgets/menu.js"></script>
-    <script  src="../../../assets/jquery-ui/ui/widgets/mouse.js"></script>
-
+    <script  src="../../assets/jquery-ui/ui/widgets/menu.js"></script>
+    <script  src="../../assets/jquery-ui/ui/widgets/mouse.js"></script>
     <!-- jQuery UI Widgets -->
-    <script  src="../../../assets/jquery-ui/ui/widgets/autocomplete.js"></script>
-
+    <script  src="../../assets/jquery-ui/ui/widgets/autocomplete.js"></script>
     <!-- JS Unify -->
-    <script  src="../../../assets/js/components/hs.autocomplete.js"></script>
+    <script  src="../../assets/js/components/hs.autocomplete.js"></script>
 
     <!-- JS Plugins Init. -->
     <script >
@@ -43,7 +41,7 @@
           <div class="input-group-addon d-flex align-items-center g-bg-white g-color-gray-light-v1 rounded-0">
             <i class="icon-user"></i>
           </div>
-          <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control form-control-md rounded-0", type: "text", placeholder: "Your Email" %>
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control form-control-md rounded-0", type: "email", placeholder: "Your Email" %>
         </div>
       </div>
 
@@ -76,7 +74,7 @@
           <div class="input-group-addon d-flex align-items-center g-bg-white g-color-gray-light-v1 rounded-0">
             <i class="icon-user-follow"></i>
           </div>
-          <%= f.password_field :password, autocomplete: "off", class: "form-control form-control-md rounded-0", type: "text", placeholder: "Input Password" %>
+          <%= f.password_field :password, autocomplete: "off", class: "form-control form-control-md rounded-0", type: "password", placeholder: "Input Password Again" %>
           <div class="input-group-addon rounded-0 d-flex align-items-center g-color-gray-light-v1 g-bg-white">
             <i class="icon-lock"></i>
           </div>
