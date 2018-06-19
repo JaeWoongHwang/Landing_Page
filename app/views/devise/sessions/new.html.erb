@@ -1,26 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Log in</title>
+
+    <!-- JS Plugins Init. -->
+    <script >
+      $(document).on('ready', function () {
+          // initialization of autocomplet
+          $.HSCore.components.HSAutocomplete.init('#autocomplete2');
+        });
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
+<!-- End Border Dashed Tagline -->
 <h2>Log in</h2>
+<hr />
+<!-- General Forms -->
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <!-- Text Input with Left Appended Icon -->
+      <div class="form-group g-mb-20">
+        <%= f.label :email, class: "g-mb-10" %>
+        <div class="input-group g-brd-primary--focus">
+          <div class="input-group-addon d-flex align-items-center g-bg-white g-color-gray-light-v1 rounded-0">
+            <i class="icon-user"></i>
+          </div>
+          <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control form-control-md rounded-0", type: "email", placeholder: "Input your email" %>
+        </div>
+      </div>
 
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
+      <!-- End Text Input with Left Appended Icon -->
 
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "off" %>
-  </div>
+      <!-- Text Input with Both Appended Icon -->
+      <div class="form-group g-mb-20">
+        <label class="g-mb-10">
+          <%= f.label :password %>
+        </label>
+        <div class="input-group g-brd-primary--focus">
+          <div class="input-group-addon d-flex align-items-center g-bg-white g-color-gray-light-v1 rounded-0">
+            <i class="icon-user-follow"></i>
+          </div>
+          <%= f.password_field :password, autocomplete: "off", class: "form-control form-control-md rounded-0", type: "password", placeholder: "Input your password" %>
+          <div class="input-group-addon rounded-0 d-flex align-items-center g-color-gray-light-v1 g-bg-white">
+            <i class="icon-lock"></i>
+          </div>
+        </div>
+      </div>
+      <% if devise_mapping.rememberable? -%>
+        <div class="field">
+          <%= f.check_box :remember_me %>
+          <%= f.label :remember_me %>
+        </div>
+      <% end %>
 
-  <% if devise_mapping.rememberable? -%>
-    <div class="field">
-      <%= f.check_box :remember_me %>
-      <%= f.label :remember_me %>
-    </div>
-  <% end -%>
+        <%= f.submit "LOG IN", class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
+      <!-- End Text Input with Both Appended Icon -->
+    </form>
+    <!-- End General Forms -->
+  <% end %>
 
-  <div class="actions">
-    <%= f.submit "Log in" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
+  <%= render "devise/shared/links" %>

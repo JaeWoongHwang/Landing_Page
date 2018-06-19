@@ -32,6 +32,8 @@ ja:
   nav_home: "ホーム"
   nav_post: "役職"
   nav_language: "言語"
+  nav_signin: "Sign in"
+  nav_signout: "Sign out"
   slider:
     title: "FANDORA BOX"
     first_content1: "あなたが資金調達に参加した場合、"

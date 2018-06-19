@@ -36,7 +36,7 @@
       <div class="form-group row g-mb-20">
         <%= form.label :user_id, 'User', class: "col-sm-3 col-form-label g-mb-10" %>
         <div class="col-sm-9">
-        <%= form.text_field :user_id, id: :post_user_id, class: "form-control u-form-control rounded-0", type: "text"%>
+        <%= form.text_field :user_id, id: :post_user_id, class: "form-control u-form-control rounded-0"%>
         </div>
       </div>
       <!-- End Text Input -->
@@ -61,8 +61,8 @@
       </div>
       <!-- End Textarea -->
       <hr class="g-brd-gray-light-v4 g-mx-minus-30">
-     <%= form.submit 'Submit', class: "btn btn-md u-btn-outline-gradient-v1 g-mr-10 g-mb-15"%>
-     <%= link_to 'Cancel', posts_path, class: "btn btn-md u-btn-outline-gradient-v1 g-mr-10 g-mb-15" %>
+     <%= form.submit 'Submit', class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
+     <%= link_to 'Cancel', posts_path, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
     </form>
     <% end %>
     <!-- End Horizontal Forms -->

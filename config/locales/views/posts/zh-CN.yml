@@ -32,6 +32,8 @@ zh-CN:
   nav_home: "家"
   nav_post: "留言板"
   nav_language: "语言选择"
+  nav_signin: "Sign in"
+  nav_signout: "Sign out"
   slider:
     title: "FANDORA BOX"
     first_content1: "如果你参与了资助，"

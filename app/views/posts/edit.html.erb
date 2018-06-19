@@ -1,6 +1,70 @@
-<h1>Editing Post</h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
 
-<%= render 'form', post: @post %>
+    <!-- JS Plugins Init. -->
+    <script >
+      $(document).on('ready', function () {
+        // initialization of forms
+        $.HSCore.helpers.HSFocusState.init();
+      });
 
-<%= link_to 'Show', @post %>
-<%= link_to 'Back', posts_path %>
+      $(window).on('load', function () {
+        // initialization of autocomplet
+        $.HSCore.components.HSAutocomplete.init('#autocomplete3');
+      });
+    </script>
+  </head>
+  <body>
+    <%= form_with(model:@post, local: true) do |form| %>
+      <% if @post.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+          <ul>
+          <% @post.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+    <!-- Horizontal Forms -->
+    <form class="g-brd-around g-brd-gray-light-v4 g-pa-30 g-mb-30">
+      <!-- Text Input -->
+      <div class="form-group row g-mb-20">
+        <%= form.label :user_id, 'User', class: "col-sm-3 col-form-label g-mb-10" %>
+        <div class="col-sm-9">
+        <%= form.text_field :user_id, id: :post_user_id, class: "form-control u-form-control rounded-0"%>
+        </div>
+      </div>
+      <!-- End Text Input -->
+
+      <!-- Text Input -->
+      <div class="form-group row g-mb-20">
+          <%= form.label :title, 'Question title', class: "col-sm-3 col-form-label g-mb-10" %>
+        <div class="col-sm-9">
+          <%= form.text_field :title, id: :post_title, class: "form-control u-form-control rounded-0", type: "text"  %>
+        </div>
+      </div>
+      <!-- End Text Input -->
+
+    <!-- Textareas -->
+    <form class="g-brd-around g-brd-gray-light-v4 g-pa-30 g-mb-30">
+      <!-- Textarea -->
+      <div class="form-group row g-mb-30">
+        <%= form.label :content, class: "col-sm-3 g-mb-10"  %>
+        <div class="col-sm-9">
+        <%= form.text_field :content, id: :post_content, class: "form-control form-control-md g-resize-none rounded-0", row: "3" %>
+        </div>
+      </div>
+      <!-- End Textarea -->
+      <hr class="g-brd-gray-light-v4 g-mx-minus-30">
+     <%= form.submit 'Submit', class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
+     <%= link_to 'Cancel', @post, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
+    </form>
+    <% end %>
+    <!-- End Horizontal Forms -->
+  </body>
+</html>

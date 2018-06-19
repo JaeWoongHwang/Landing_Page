@@ -2,14 +2,19 @@
 
 <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= devise_error_messages! %>
-
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  <!-- Text Input with Left Appended Icon -->
+  <div class="form-group g-mb-20">
+    <%= f.label :email, class: "g-mb-10" %>
+    <div class="input-group g-brd-primary--focus">
+      <div class="input-group-addon d-flex align-items-center g-bg-white g-color-gray-light-v1 rounded-0">
+        <i class="icon-user"></i>
+      </div>
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control form-control-md rounded-0", type: "email", placeholder: "Input your email" %>
+    </div>
   </div>
 
   <div class="actions">
-    <%= f.submit "Send me reset password instructions" %>
+    <%= f.submit "Send me reset password instructions", class: "btn btn-sm u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
   </div>
 <% end %>
 

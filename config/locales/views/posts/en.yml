@@ -32,6 +32,8 @@ en:
   nav_home: "HOME"
   nav_post: "POST"
   nav_language: "LANGUAGE"
+  nav_signin: "Sign in"
+  nav_signout: "Sign out"
   slider:
     title: "FANDORA BOX"
     first_content1: "If you participated in funding,"
