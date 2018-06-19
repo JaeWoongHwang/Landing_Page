@@ -37,16 +37,16 @@
     <!-- CSS Customization -->
     <link rel="stylesheet" href="../../assets/css/custom.css">
 
-    
+    <!-- CSS Implementing Plugins -->
+    <link  rel="stylesheet" href="../../assets/jquery-ui/themes/base/jquery-ui.min.css">
+
   </head>
 
   <body>
-    <!--Header & Nav  -->
-    <%= render 'shared/header' %>
-
-    <%= yield %>
     <!-- JS -->
     <%= render 'shared/style' %>
-
+    <!--Header & Nav  -->
+    <%= render 'shared/header' %>
+    <%= yield %>
   </body>
 </html>

@@ -39,7 +39,7 @@ en:
     second_content1: "FANDORA BOX is a new social funding platform that "
     second_content2: "connects fans and entertainers."
   introduction:
-    reservation: 
+    reservation:
     reservation_content:
     first_title:
     first_content1:
@@ -73,7 +73,7 @@ en:
     contact: "Contact Us"
     c_address: "Soeul, Korea"
     c_telephone: "02-000-0000"
-    c_email: "btd.bonkyoung@gmail.com"
+    c_email: "btd.info@gmail.com"
     privacy_policy: "Privacy Policy"
     term_of_use: "Term of Use"
     license: "License"

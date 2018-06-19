@@ -30,7 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 ko:
   nav_home: "홈으로"
-  nav_post: "문의사항"
+  nav_post: "게시판"
   nav_language: "언어선택"
   slider:
     title: "FANDORA BOX"
@@ -56,7 +56,7 @@ ko:
     fifth_content: "FANDORA BOX에서 진행되는 이벤트, 기부 활동 및 기타 내 스타의 스토리를 직접 팬들이 기록하고 공유할 수 있습니다. FANDORA BOX를 통해 스타와 팬의 새로운 이야기를 써내려가세요."
   iconblock:
     investment_title: "투자 및 파트너쉽 문의"
-    investment_content: "FANDORA BOX의 콘셉트와 가치를 함꼐 만들어갈 파트너를 모집합니다."
+    investment_content: "FANDORA BOX의 콘셉트와 가치를 함께 만들어갈 파트너를 모집합니다."
     idea_title: "아이디어 제공"
     idea_content: "FANDORA BOX는 팬과 스타를 위한 공간입니다. 더 나은 아이디어가 있다면 편하게 제안해주세요. 제안해주신 분들에겐 소정의 상품을 드립니다."
     survey_title: "설문조사"
@@ -73,7 +73,7 @@ ko:
     contact: "문의"
     c_address: "서울특별시 구로구 구로동 가마산로27길 52"
     c_telephone: "02-000-0000"
-    c_email: "btd.bonkyoung@gmail.com"
+    c_email: "btd.info@gmail.com"
     privacy_policy: "개인정보처리방침"
     term_of_use: "이용약관"
     license: "저작권방침"
