@@ -17,7 +17,7 @@
   </body>
 </html>
 <!-- End Border Dashed Tagline -->
-<h2>Sign up</h2>
+<h2><%= t 'user.sign_up' %></h2>
 <hr />
 <!-- General Forms -->
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name), class: "g-brd-around g-brd-gray-light-v4 g-pa-30 g-mb-30" )do |f| %>
@@ -68,7 +68,8 @@
           </div>
         </div>
       </div>
-        <%= f.submit "SIGN UP", class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
+        <%= f.submit t("user.join"), class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
+
       <!-- End Text Input with Both Appended Icon -->
     </form>
     <!-- End General Forms -->

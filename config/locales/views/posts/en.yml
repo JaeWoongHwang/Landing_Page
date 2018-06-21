@@ -32,8 +32,21 @@ en:
   nav_home: "HOME"
   nav_post: "POST"
   nav_language: "LANGUAGE"
-  nav_signin: "Sign in"
-  nav_signout: "Sign out"
+  user:
+    sign_up: "Sign Up"
+    sign_in: "Sign In"
+    sign_out: "Sign Out"
+    join: "Join Us"
+    forgot_pwd: "Forgot your password"
+    pwd_instruction: "Send me reset password instructions"
+  post:
+    new: "New Post"
+    submit: "Submit"
+    show: "Show"
+    edit: "Edit"
+    delete: "Delete"
+    cancel: "Cancel"
+    back: "Back"
   slider:
     title: "FANDORA BOX"
     first_content1: "If you participated in funding,"
@@ -76,4 +89,3 @@ en:
     c_address: "Soeul, Korea"
     c_telephone: "02-000-0000"
     c_email: "btd.info@gmail.com"
-    

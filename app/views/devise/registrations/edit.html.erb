@@ -32,7 +32,9 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Update" %>
+    <%= f.submit do %>
+      <%= t 'post.edit' %>
+    <% end %>
   </div>
 <% end %>
 

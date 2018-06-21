@@ -31,9 +31,22 @@
 ko:
   nav_home: "홈으로"
   nav_post: "게시판"
-  nav_language: "언어선택"
-  nav_signin: "로그인"
-  nav_signout: "로그아웃"
+  nav_language: "LANGUAGE"
+  user:
+    sign_up: "회원가입"
+    sign_in: "로그인"
+    sign_out: "로그아웃"
+    join: "가입하기"
+    forgot_pwd: "비밀번호을 잊어버리셨습니까?"
+    pwd_instruction: "비밀번호 재설정 메일 받기"
+  post:
+    new: "새글쓰기"
+    submit: "작성"
+    show: "자세히"
+    edit: "수정"
+    delete: "삭제"
+    cancel: "취소"
+    back: "뒤로"
   slider:
     title: "FANDORA BOX"
     first_content1: "펀딩에 참여하면"

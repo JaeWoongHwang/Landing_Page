@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Edit Page</title>
 
     <!-- JS Plugins Init. -->
     <script >
@@ -61,8 +61,11 @@
       </div>
       <!-- End Textarea -->
       <hr class="g-brd-gray-light-v4 g-mx-minus-30">
-     <%= form.submit 'Submit', class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
-     <%= link_to 'Cancel', @post, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
+     <%= form.submit t("post.edit"), class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
+
+     <%= link_to @post, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" do %>
+      <%= t 'post.cancel' %>
+     <% end %>
     </form>
     <% end %>
     <!-- End Horizontal Forms -->

@@ -32,8 +32,21 @@ ja:
   nav_home: "ホーム"
   nav_post: "役職"
   nav_language: "言語"
-  nav_signin: "Sign in"
-  nav_signout: "Sign out"
+  user:
+    sign_up: "Sign Up"
+    sign_in: "Sign In"
+    sign_out: "Sign Out"
+    join: "Join Us"
+    forgot_pwd: "Forgot your password"
+    pwd_instruction: "Send me reset password instructions"
+  post:
+    new: "New Post"
+    submit: "Submit"
+    show: "Show"
+    edit: "Edit"
+    delete: "Delete"
+    cancel: "Cancel"
+    back: "Back"
   slider:
     title: "FANDORA BOX"
     first_content1: "あなたが資金調達に参加した場合、"
@@ -76,4 +89,3 @@ ja:
     c_address:
     c_telephone:
     c_email: "btd.info@gmail.com"
-    

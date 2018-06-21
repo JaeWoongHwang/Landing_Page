@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Form</title>
 
     <!-- JS Plugins Init. -->
     <script >
@@ -43,7 +43,7 @@
 
       <!-- Text Input -->
       <div class="form-group row g-mb-20">
-          <%= form.label :title, 'Question title', class: "col-sm-3 col-form-label g-mb-10" %>
+          <%= form.label :title, 'Question', class: "col-sm-3 col-form-label g-mb-10" %>
         <div class="col-sm-9">
           <%= form.text_field :title, id: :post_title, class: "form-control u-form-control rounded-0", type: "text"  %>
         </div>
@@ -61,8 +61,10 @@
       </div>
       <!-- End Textarea -->
       <hr class="g-brd-gray-light-v4 g-mx-minus-30">
-     <%= form.submit 'Submit', class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
-     <%= link_to 'Cancel', posts_path, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
+     <%= form.submit t("post.submit"), class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
+     <%= link_to posts_path, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" do %>
+      <%= t 'post.cancel' %>
+     <% end %>
     </form>
     <% end %>
     <!-- End Horizontal Forms -->

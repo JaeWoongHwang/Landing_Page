@@ -17,7 +17,7 @@
   </body>
 </html>
 <!-- End Border Dashed Tagline -->
-<h2>Log in</h2>
+<h2><%= t 'user.sign_in' %></h2>
 <hr />
 <!-- General Forms -->
   <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
@@ -56,7 +56,8 @@
         </div>
       <% end %>
 
-        <%= f.submit "LOG IN", class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
+        <%= f.submit t("user.sign_in"), class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
+
       <!-- End Text Input with Both Appended Icon -->
     </form>
     <!-- End General Forms -->

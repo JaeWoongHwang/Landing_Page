@@ -1,7 +1,7 @@
-<h2>Forgot your password?</h2>
+<h2><%= t 'user.forgot_pwd' %></h2>
 
-<%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= devise_error_messages! %>
+  <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <!-- Text Input with Left Appended Icon -->
   <div class="form-group g-mb-20">
     <%= f.label :email, class: "g-mb-10" %>
@@ -14,7 +14,7 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Send me reset password instructions", class: "btn btn-sm u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
+    <%= f.submit t("user.pwd_instruction"), class: "btn btn-sm u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
   </div>
 <% end %>
 

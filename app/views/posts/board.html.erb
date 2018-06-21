@@ -1,5 +1,7 @@
 <div class="btn">
-  <%= link_to "New Post", new_post_path, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15"%>
+  <%= link_to new_post_path, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" do %>
+    <%= t 'post.new' %>
+  <% end %>
 </div>
 
 <!-- Table Striped Rows -->
@@ -25,7 +27,11 @@
         <td class="hidden-sm"><%= post.title %></td>
         <td><%= post.content %></td>
         <td><%= post.created_at %></td>
-        <td><%= link_to 'Show', post %></td>
+        <td>
+          <%= link_to post do %>
+            <%= t 'post.show' %>
+          <% end %>
+        </td>
       </tr>
       <% board_num += 1 %>
       <% end %>

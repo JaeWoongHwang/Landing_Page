@@ -83,14 +83,14 @@
             <% if user_signed_in? %>
             <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut" data-max-width="60%" data-position="left">
               <%= link_to destroy_user_session_path, data: {confirm:"Are you sure?"}, class: "nav-link g-py-7 g-px-0", id: "mega-menu-home", :aria => {:haspopup => "true", :expanded => "false"}, method: :delete  do %>
-                <%= t 'nav_signout' %>
+                <%= t 'user.sign_out' %>
               <% end  %>
             </li>
             <!-- End Mega Menu -->
             <% else %>
             <li class="nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut" data-max-width="60%" data-position="left">
               <%= link_to new_user_session_path, class: "nav-link g-py-7 g-px-0", id: "mega-menu-home", :aria => {:haspopup => "true", :expanded => "false"} do %>
-                <%= t 'nav_signin' %>
+                <%= t 'user.sign_in' %>
               <% end  %>
               <!-- End Mega Menu -->
             </li>

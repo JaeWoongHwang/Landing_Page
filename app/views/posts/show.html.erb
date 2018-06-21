@@ -20,6 +20,12 @@
   </table>
 </div>
 <!-- End Table Striped Rows-->
-<%= link_to 'Edit', edit_post_path(@post), class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
-<%= link_to 'Delete', @post, method: :destroy, data: { confirm: 'Are you sure?' }, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
-<%= link_to 'Back', posts_board_path, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" %>
+<%= link_to edit_post_path(@post), class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" do %>
+  <%= t 'post.edit' %>
+<% end %>
+<%= link_to @post, method: :destroy, data: { confirm: 'Are you sure?' }, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" do %>
+  <%= t 'post.delete' %>
+<% end %>
+<%= link_to posts_board_path, class: "btn u-btn-outline-darkgray rounded-0 g-mr-10 g-mb-15" do %>
+  <%= t 'post.back' %>
+<% end %>
