@@ -43,8 +43,7 @@ en:
     new: "New Post"
     submit: "Submit"
     show: "Show"
-    edit: "Edit"
-    delete: "Delete"
+    edit: "Edit"    delete: "Delete"
     cancel: "Cancel"
     back: "Back"
   slider:
